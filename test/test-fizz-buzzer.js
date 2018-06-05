@@ -32,7 +32,7 @@ describe('fiz-buzzer', function() {
 
     nonDivCases.forEach(function(input) {
       expect(fizBuzzer(input)).to.equal(input);
-    });
+    });z
   });
 
   it('should throw error if input is not a number', function() {
